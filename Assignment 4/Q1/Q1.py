@@ -9,5 +9,7 @@ elif(a<=60):
  print("The Grade Awarded Is C")
 elif(a<=80):
  print("The Grade Awarded Is B")
-elif(a>80):
+elif(a<80):
  print("The Grade Awarded Is A") 
+elif(a>100):
+ print("Enter Value From 1 To 100")
