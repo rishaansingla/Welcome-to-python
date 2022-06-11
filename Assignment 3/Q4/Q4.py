@@ -1,6 +1,18 @@
-a=1
+for i in range(5):
+    print(i, end=" ")
+print()
 
-while a<200:
-    if (a%5 == 2) and (a%6 == 3) and (a%7 == 2):
-        print('No. of Candies =',a)
-    a+=1
+for i in range(3,10):
+    print(i, end=" ")
+print()
+
+for i in range(4,13,3):
+    print(i, end=" ")
+print()
+
+for i in range(15,5,-2):
+    print(i, end=" ")
+print()
+
+for i in range(5,3):
+    print(i, end=" ")
