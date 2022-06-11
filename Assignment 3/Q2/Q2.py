@@ -1,17 +1,8 @@
-num = float(input('Enter first number: '))
-sign = input('Enter sign(+, -, *, / or q for quit): ')
-
-while (sign!='q'):
-    if sign=='+':
-        num = num + float(input('Next number: '))
-    elif sign == '-':
-        num = num - float(input('Next number: '))
-    elif sign == '*':
-        num = num * float(input('Next number: '))
-    elif sign == '/':
-        num = num / float(input('Next number: '))
-    else:
-        print('Invalid operator, try again')
-    sign = input('Enter next sign(+, -, *, / or q for quit): ')
-
-print(num)
+a=int(input("Enter The Year: "))
+if(a%4==0):
+ if(a%100==0):
+  print("It is not a leap year")
+ else:
+  print("It is a leap year")
+else:
+ print("It is not a leap year")
